@@ -10,9 +10,7 @@ header {
 }
 
 /* Main content */
-main {
-  padding: 3vh;
-}
+
 
 /* Headings */
 h1 {
@@ -125,7 +123,9 @@ li a:hover::before {
   grid-column: 1 / span 3;
   background-color: black;
 }
-
+.article-photo h1 { 
+  padding: 1vh;
+}
 .image-card {
   position: relative;
   overflow: hidden;
@@ -152,7 +152,7 @@ li a:hover::before {
   border-radius: 1em 1rem 1rem 1rem;
 }
 
-.article-card-info:hover { 
+.article-card-info:hover {
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.4);
   transition: 0.2s linear;
 }
@@ -175,7 +175,9 @@ li a:hover::before {
 .footer-text {
   color: white;
 }
-
+.card { 
+  padding: 2vh;
+}
 /* Responsive */
 @media screen and (max-width: 768px) {
   .section-promotion {
